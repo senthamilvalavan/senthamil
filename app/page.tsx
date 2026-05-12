@@ -252,7 +252,7 @@ export default function Portfolio() {
       <section id="contact" className="py-40 px-6 max-w-4xl mx-auto text-center border-t border-white/5 relative z-20 bg-[#0a0a0a]">
         <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={springUp}>
           {/* ESLint Fix: Changed Let's to Let&apos;s */}
-          <h3 className="text-6xl md:text-8xl font-bold text-white mb-8 tracking-tighter uppercase">Let&apos;s Talk.</h3>
+          <h3 className="text-6xl md:text-8xl font-bold text-white mb-8 tracking-tighter uppercase">Let&apos;s Talk</h3>
           <p className="text-gray-400 mb-12 text-lg font-light max-w-xl mx-auto">Actively seeking entry-level Data Analyst or Data Scientist roles.</p>
           <div className="flex flex-col items-center gap-10">
             <motion.a whileHover={{ scale: 1.05 }} href="mailto:senthamilvalavan456@gmail.com" className="px-10 py-4 bg-white text-black rounded-full font-bold text-lg shadow-[0_0_20px_rgba(255,255,255,0.2)]">Get In Touch</motion.a>
