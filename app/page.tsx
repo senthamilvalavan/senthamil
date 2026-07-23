@@ -132,7 +132,7 @@ export default function Portfolio() {
             </motion.h1>
 
             <motion.h2 variants={springUp} className="text-xl md:text-2xl text-white/80 mb-6 font-light">
-              Data Analyst & Data Scientist
+              Data Analyst
             </motion.h2>
 
             <motion.p variants={springUp} className="text-gray-500 mb-10 leading-relaxed max-w-md text-lg">
