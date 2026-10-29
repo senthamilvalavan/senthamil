@@ -349,7 +349,7 @@ export default function Portfolio() {
                   </div>
                 </div>
                 <div className="pt-6 border-t border-white/5 flex gap-6">
-                  <a href="https://github.com/senthamilvalavan" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors">
+                  <a href="https://github.com/senthamilvalavan/ai-career-intelligence-agent" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.24c3-.34 6-1.53 6-6.76a5.2 5.2 0 0 0-1.39-3.5 4.8 4.8 0 0 0-.12-3.46s-1.14-.36-3.7 1.39a12.1 12.1 0 0 0-7 0C6.27 2.24 5.13 2.6 5.13 2.6a4.8 4.8 0 0 0-.12 3.46A5.2 5.2 0 0 0 3.61 9.5c0 5.22 3 6.42 6 6.76-.7.6-1.09 1.4-1.1 2.44V22"/><path d="M9 20c-4.5 1.5-5-2-7-2"/></svg>
                     Source Code
                   </a>
