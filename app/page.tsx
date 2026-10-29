@@ -132,22 +132,22 @@ export default function Portfolio() {
             </motion.h1>
 
             <motion.h2 variants={springUp} className="text-xl md:text-2xl text-white/80 mb-6 font-light">
-              Data Analyst
+              GenAI & Data Analyst
             </motion.h2>
 
             <motion.p variants={springUp} className="text-gray-500 mb-10 leading-relaxed max-w-md text-lg">
-              Results-driven Data Analyst & Scientist turning raw datasets into actionable insights through Explainable AI (XAI), scalable ML pipelines, and advanced data visualization.
+              AI Data Analyst turning raw data into clear business decisions through SQL, Power BI, Python automation, and Generative AI workflows.
             </motion.p>
 
             <motion.div variants={springUp} className="flex flex-wrap gap-4">
               <motion.a whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} href="#contact" className="px-8 py-3 bg-white text-black rounded-full font-medium shadow-[0_0_20px_rgba(255,255,255,0.1)] text-center">
                 Hire Me
               </motion.a>
-              <motion.a whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} href="/Senthamil_Valavan_S_DATA_ANALYST.pdf" download="Senthamil_Data_Analyst_Resume.pdf" className="px-6 py-3 border border-white/20 text-white rounded-full font-medium hover:bg-white/10 transition-colors flex items-center gap-2">
+              <motion.a whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} href="/Senthamil_Valavan_S_AI_DATA_ANALYST.pdf" download="Senthamil_Valavan_S_AI_DATA_ANALYST.pdf" className="px-6 py-3 border border-white/20 text-white rounded-full font-medium hover:bg-white/10 transition-colors flex items-center gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
-                DA Resume
+                Resume
               </motion.a>
-              
+
               <motion.a whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} href="#projects" className="px-6 py-3 border border-white/5 text-gray-400 rounded-full font-medium hover:text-white transition-colors">
                 View Work
               </motion.a>
@@ -172,13 +172,13 @@ export default function Portfolio() {
           <motion.h3 variants={springUp} className="text-4xl md:text-5xl font-bold text-white mb-10 uppercase tracking-tighter">About Me</motion.h3>
           <div className="max-w-4xl space-y-6 text-gray-400 leading-relaxed text-lg font-light">
             <motion.p variants={springUp}>
-              I am a recent B.Tech IT graduate (Batch of 2026) and a data-driven problem solver with deep expertise in Computer Vision, predictive modeling, and business intelligence.
+              I am a 2026 B.Tech Information Technology graduate working at the intersection of Data Analytics, Business Intelligence, and Generative AI. I focus on taking raw datasets and manual workflows and turning them into clean dashboards, automated Python pipelines, and practical AI-driven solutions.
             </motion.p>
             <motion.p variants={springUp}>
-              As the Lead Data Analyst at Codeniet—an early-stage tech startup—I architect robust data models and transform complex datasets into actionable business insights. Alongside my startup, I operate as an independent BI Analyst, optimizing workflows and building interactive dashboards for international clients.
+              Through my role at Codeniet—an early-stage tech startup—I work on cleaning complex operational data, automating recurring reports with Python and SQL, and delivering clear insights for decision-making. Alongside my startup work, I operate as an independent BI Analyst building interactive dashboards and data workflows for clients.
             </motion.p>
             <motion.p variants={springUp}>
-              A major focus of my work involves deep-dive data analytics—utilizing advanced SQL (CTEs, Window Functions) and Power BI to uncover customer behavior patterns and drive strategic, business-wide decisions.
+              My core analytical work relies on advanced SQL (Joins, CTEs, Window Functions) and Power BI to uncover customer behavior patterns, paired with hands-on experience in LLM APIs, automated web extraction, and Explainable AI (Grad-CAM). Currently, I am building deeper into Generative AI and agentic workflows to create smarter, automated analytics tools.
             </motion.p>
           </div>
         </motion.div>
@@ -194,7 +194,8 @@ export default function Portfolio() {
               <SpotlightCard className="h-full">
                 <h4 className="text-xl font-medium text-white mb-6">Machine Learning & AI</h4>
                 <div className="flex flex-wrap gap-2">
-                  {['Deep Learning', 'Computer Vision', 'NLP', 'Explainable AI (XAI)', 'Grad-CAM', 'Predictive Modeling'].map((skill) => (
+                  {/* Updated with LLM APIs */}
+                  {['Gen AI','Deep Learning', 'Computer Vision', 'LLM APIs', 'NLP', 'Explainable AI (XAI)', 'Grad-CAM', 'Predictive Modeling'].map((skill) => (
                     <span key={skill} className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300">{skill}</span>
                   ))}
                 </div>
@@ -227,7 +228,8 @@ export default function Portfolio() {
               <SpotlightCard className="h-full">
                 <h4 className="text-xl font-medium text-white mb-6">Modern Dev Tools</h4>
                 <div className="flex flex-wrap gap-2">
-                  {['Cursor AI', 'GitHub Copilot', 'PyCharm', 'Jupyter', 'Git & GitHub'].map((skill) => (
+                  {/* Updated with GitHub Actions and Automation */}
+                  {['Cursor AI', 'PyCharm', 'GitHub Actions', 'Automation', 'Jupyter'].map((skill) => (
                     <span key={skill} className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-300">{skill}</span>
                   ))}
                 </div>
@@ -331,7 +333,31 @@ export default function Portfolio() {
           <motion.h3 variants={springUp} className="text-4xl md:text-5xl font-bold text-white mb-16 text-center uppercase tracking-tighter">Projects</motion.h3>
           <div className="grid md:grid-cols-2 gap-8">
 
-            {/* FIRST: Customer Behavior Dashboard */}
+            {/* FIRST (NEW): GenAI & Automation Agent */}
+            <motion.div variants={springUp} whileHover={{ y: -10 }} className="transition-transform h-full">
+              <SpotlightCard className="p-10 h-full flex flex-col">
+                <div className="flex-1">
+                  <span className="text-xs tracking-widest uppercase text-gray-500 mb-4 block">GenAI & Automation</span>
+                  <h4 className="text-2xl font-medium text-white mb-4">AI Career Intelligence Agent</h4>
+                  <p className="text-gray-400 font-light leading-relaxed mb-8 text-lg">
+                    Engineered a fully autonomous multi-agent pipeline using Python and GitHub Actions. Integrated Google Sheets API for live tracking and LLM APIs to automatically scrape, filter, and dynamically tailor 100% humanized ATS resumes from 20+ job portals.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-8">
+                    {['Python', 'LLM APIs', 'GitHub Actions', 'Automation'].map((tech) => (
+                      <span key={tech} className="text-xs px-4 py-2 rounded-full border border-white/10 text-gray-300">{tech}</span>
+                    ))}
+                  </div>
+                </div>
+                <div className="pt-6 border-t border-white/5 flex gap-6">
+                  <a href="https://github.com/senthamilvalavan" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.24c3-.34 6-1.53 6-6.76a5.2 5.2 0 0 0-1.39-3.5 4.8 4.8 0 0 0-.12-3.46s-1.14-.36-3.7 1.39a12.1 12.1 0 0 0-7 0C6.27 2.24 5.13 2.6 5.13 2.6a4.8 4.8 0 0 0-.12 3.46A5.2 5.2 0 0 0 3.61 9.5c0 5.22 3 6.42 6 6.76-.7.6-1.09 1.4-1.1 2.44V22"/><path d="M9 20c-4.5 1.5-5-2-7-2"/></svg>
+                    Source Code
+                  </a>
+                </div>
+              </SpotlightCard>
+            </motion.div>
+
+            {/* SECOND: Customer Behavior Dashboard */}
             <motion.div variants={springUp} whileHover={{ y: -10 }} className="transition-transform h-full">
               <SpotlightCard className="p-10 h-full flex flex-col">
                 <div className="flex-1">
@@ -361,7 +387,7 @@ export default function Portfolio() {
               </SpotlightCard>
             </motion.div>
 
-            {/* SECOND: Explainable Deepfake Detection */}
+            {/* THIRD: Explainable Deepfake Detection */}
             <motion.div variants={springUp} whileHover={{ y: -10 }} className="transition-transform h-full">
               <SpotlightCard className="p-10 h-full">
                 <div className="flex-1">
@@ -383,15 +409,15 @@ export default function Portfolio() {
               </SpotlightCard>
             </motion.div>
 
-            {/* THIRD: ITI College Web Portal */}
+            {/* FOURTH: ITI College Web Portal */}
       <motion.div variants={springUp} whileHover={{ y: -10 }} className="transition-transform h-full">
         <SpotlightCard className="p-10 h-full">
           <div className="flex-1">
             <span className="text-xs tracking-widest uppercase text-gray-500 mb-4 block">Client Web Project</span>
             <h4 className="text-2xl font-medium text-white mb-4">ITI College Web Portal</h4>
-            <p className="text-gray-400 font-light leading-relaxed mb-8 text-lg">Developed a complete client web portal for an ITI college, focusing on robust database architecture to efficiently structure, store, and manage institutional data.</p>
+            <p className="text-gray-400 font-light leading-relaxed mb-8 text-lg">Designed and developed a responsive official website for an ITI college. Worked directly with the client to structure course details, admission information, and ensure smooth navigation across all devices.</p>
             <div className="flex flex-wrap gap-2 mb-8">
-              {['Database Design', 'Data Management', 'SQL', 'Web Development'].map((tech) => (
+              {['Web Development', 'Client Delivery', 'Responsive Design'].map((tech) => (
                 <span key={tech} className="text-xs px-4 py-2 rounded-full border border-white/10 text-gray-300">{tech}</span>
               ))}
             </div>
